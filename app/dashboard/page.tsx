@@ -105,7 +105,7 @@ export default function DashboardPage() {
         {/* Main dashboard grid */}
         <div className="grid gap-6 md:grid-cols-2">
           {/* Progress Chart */}
-          <PieChartCard percent={percent} />
+          <PieChartCard progress={percent} />
 
           {/* Chatbot Section */}
           <div className="bg-slate-900/70 border border-slate-800 rounded-2xl p-4 flex flex-col">
